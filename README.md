@@ -1,15 +1,14 @@
 # Análise de Sobrevivência 
 
-### Conceitos importantes 
+### Objetivos 
 
+
+# Material e Métodos  
 
 ### Banco de dados 
 
 
-### Objetivos 
-
-
-# Metodologias 
+# Resultados
 
 ### 
 
