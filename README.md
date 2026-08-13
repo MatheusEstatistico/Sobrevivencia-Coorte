@@ -14,17 +14,6 @@ Para isso, emprega métodos não paramétricos como o **estimador de Kaplan-Meie
 
 ### Banco de dados 
 
-
-# Resultados
-
-### 
-
-
-# Discussão 
-
-### 
-
-
-# Considerações finais
-
-### 
+# Análises feitas
+- []();
+- 
