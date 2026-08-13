@@ -1,0 +1,9 @@
+FLUXOGRAMA DE ELEGIBILIDADE (STROBE, Figura 1)
+==============================================================
+AIH recuperadas do SIH/SUS..........................   40.000
+Após excluir AIH de continuação (IDENT=5)...........   40.000   (−0)
+Diagnóstico principal J00-99........................   40.000   (−0)
+Idade 18-110 anos...................................   40.000   (−0)
+Permanência válida (0-365 dias).....................   40.000   (−0)
+Coorte analítica....................................   40.000   (−0)
+  (com raça/cor ausente — mantidos, imputados na sensibilidade)    3.478

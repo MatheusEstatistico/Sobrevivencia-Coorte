@@ -1,0 +1,46 @@
+# ---------------------------------------------------------------------------
+# Plano de análise estatística (SAP) em formato executável.
+#
+# Alterar este arquivo é alterar o desenho do estudo — e o `git log` registra
+# quando e por quê. Se a mudança ocorrer DEPOIS de ver os resultados, isso
+# precisa ser declarado como análise post hoc no manuscrito.
+# ---------------------------------------------------------------------------
+
+# ------------------------------- Desenho -----------------------------------
+uf: MG
+anos: [2023]
+meses: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+grupo_sih: RD                 # AIH Reduzida
+cid_prefixos: ["J"]           # Capítulo X da CID-10
+
+idade_minima: 18
+idade_maxima: 110
+tau_dias: 30.0                # horizonte do seguimento intra-hospitalar
+tempo_minimo: 0.5             # imputação para desfecho no dia da internação
+
+# --------------------------- Estrutura do modelo ---------------------------
+exposicao_principal: grupo_diagnostico
+referencia_exposicao: Pneumonia
+
+covariaveis_ajuste:
+  - idade_ns1                 # spline cúbica restrita (3 g.l.)
+  - idade_ns2
+  - idade_ns3
+  - sexo_feminino
+  - raca_nao_branca
+  - uti                       # ver §4.3 do ARTIGO: mediador/marcador de gravidade
+  - urgencia
+  - comorbidade_registrada
+  - inverno
+
+cluster_col: CNES             # sanduíche robusto por estabelecimento
+
+# ------------------------------ Inferência ---------------------------------
+alpha: 0.05
+metodo_ajuste_multiplo: holm
+n_bootstrap: 200
+seed: 20240501
+
+# ------------------------- Execução / dados --------------------------------
+modo_dados: auto              # auto | pysus | simular
+n_simulacao: 40000

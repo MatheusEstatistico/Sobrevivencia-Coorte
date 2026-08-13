@@ -1,0 +1,27 @@
+# ---------------------------------------------------------------------------
+# Dependências do pipeline. Versões mínimas testadas em 2026-08 com
+# Python 3.12. Fixe versões exatas (pip freeze) antes de submeter um artigo.
+# ---------------------------------------------------------------------------
+
+# Núcleo numérico
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+
+# Modelagem de sobrevida
+lifelines>=0.28          # KM, Cox, Cox com covariáveis dependentes do tempo
+statsmodels>=0.14        # correção de multiplicidade, LOWESS
+
+# Visualização
+matplotlib>=3.8
+
+# Entrada/saída
+pyarrow>=14.0            # Parquet (cache dos microdados)
+PyYAML>=6.0
+tabulate>=0.9            # DataFrame.to_markdown
+
+# Aquisição de dados do DATASUS (opcional: sem ela o pipeline usa o simulador)
+pysus>=2.0
+
+# Desenvolvimento
+pytest>=7.4

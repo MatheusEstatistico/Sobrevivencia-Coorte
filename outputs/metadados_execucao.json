@@ -1,0 +1,64 @@
+{
+  "executado_em": "2026-08-11 15:23:11",
+  "duracao_s": 184.8,
+  "python": "3.12.3",
+  "plataforma": "Linux-6.18.5-fc-v20-x86_64-with-glibc2.39",
+  "origem_dados": "simulado",
+  "n_coorte": 40000,
+  "n_obitos": 4011,
+  "config": {
+    "uf": "MG",
+    "anos": [
+      2023
+    ],
+    "meses": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "grupo_sih": "RD",
+    "cid_prefixos": [
+      "J"
+    ],
+    "idade_minima": 18,
+    "idade_maxima": 110,
+    "tau_dias": 30.0,
+    "tempo_minimo": 0.5,
+    "exposicao_principal": "grupo_diagnostico",
+    "referencia_exposicao": "Pneumonia",
+    "covariaveis_ajuste": [
+      "idade_ns1",
+      "idade_ns2",
+      "idade_ns3",
+      "sexo_feminino",
+      "raca_nao_branca",
+      "uti",
+      "urgencia",
+      "comorbidade_registrada",
+      "inverno"
+    ],
+    "cluster_col": "CNES",
+    "id_col": "id_internacao",
+    "alpha": 0.05,
+    "metodo_ajuste_multiplo": "holm",
+    "n_bootstrap": 200,
+    "seed": 20240501,
+    "dir_raiz": "/home/claude/coorte-respiratoria-sus",
+    "dir_dados": "/home/claude/coorte-respiratoria-sus/data",
+    "dir_saidas": "/home/claude/coorte-respiratoria-sus/outputs",
+    "modo_dados": "simular",
+    "n_simulacao": 40000
+  },
+  "logrank_p": 4.367891917515645e-197,
+  "permutacao_cif_p": 0.002,
+  "c_index_corrigido": 0.8076219048625766
+}

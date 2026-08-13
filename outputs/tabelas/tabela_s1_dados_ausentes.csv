@@ -1,0 +1,5 @@
+Variável,Ausentes,% ausente,% ausente entre óbitos,% ausente entre não óbitos,Mecanismo sugerido
+raca_nao_branca,3478,8.695,8.975317875841435,8.663758370613243,Compatível com MCAR
+sexo_feminino,0,0.0,0.0,0.0,Completo
+idade,0,0.0,0.0,0.0,Completo
+uti,0,0.0,0.0,0.0,Completo
