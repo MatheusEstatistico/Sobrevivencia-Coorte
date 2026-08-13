@@ -19,5 +19,5 @@ Para isso, emprega métodos não paramétricos como o **estimador de Kaplan-Meie
 - 
 
 
-# Observações
-1. Códigos feitos com ajuda de IA (Claude Code), mas foi revisado. 
+### Observações:
+Códigos feitos com ajuda de IA (Claude Code), mas foi revisado. 
