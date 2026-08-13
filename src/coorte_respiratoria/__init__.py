@@ -32,4 +32,4 @@ from .preprocessing import construir_coorte, formatar_fluxograma
 
 __all__ = ["AnalysisConfig", "PROJECT_ROOT", "obter_coorte", "simular_sih",
            "construir_coorte", "formatar_fluxograma"]
-__version__ = "1.0.0"
+__version__ = "1.0.0" # Upada para o github
