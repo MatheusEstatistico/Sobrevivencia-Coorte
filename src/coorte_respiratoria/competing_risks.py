@@ -2,23 +2,16 @@
 competing_risks.py
 ==================
 
-Análise de **riscos competitivos**: incidência acumulada de Aalen-Johansen,
-modelos de risco de causa específica e o modelo de sub-distribuição de
-Fine & Gray (1999), aqui implementado do zero por ponderação do conjunto de
-risco.
+Análise de **riscos competitivos**: incidência acumulada de Aalen-Johansen, modelos de risco de causa específica e o modelo de sub-distribuição de Fine & Gray (1999), aqui implementado do zero por ponderação do conjunto de risco.
 
 O problema
 ----------
-Um paciente internado por causa respiratória sai do hospital vivo (alta) ou
-morre. A alta **impede** a observação do óbito intra-hospitalar: não é censura
-independente, é um **evento competitivo**. Consequências:
+Um paciente internado por causa respiratória sai do hospital vivo (alta) ou morre. A alta **impede** a observação do óbito intra-hospitalar: não é censura independente, é um **evento competitivo**. 
 
-* :math:`1 - \\mathrm{KM}(t)` **superestima** a probabilidade de óbito, e o viés
-  cresce com a incidência do evento competitivo — que aqui é enorme (>90% das
-  internações terminam em alta). Em coortes hospitalares esse viés pode ser de
-  várias vezes a magnitude do risco real.
-* O estimador correto do risco absoluto é a **incidência acumulada (CIF)** de
-  Aalen-Johansen:
+Consequências:
+
+* :math:`1 - \\mathrm{KM}(t)` **superestima** a probabilidade de óbito, e o viés cresce com a incidência do evento competitivo — que aqui é enorme (>90% das internações terminam em alta). Em coortes hospitalares esse viés pode ser de várias vezes a magnitude do risco real.
+* O estimador correto do risco absoluto é a **incidência acumulada (CIF)** de   Aalen-Johansen:
 
   .. math::
      \\hat F_k(t) = \\sum_{t_j \\le t} \\hat S(t_{j-1})\\,
