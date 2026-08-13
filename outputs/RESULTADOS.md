@@ -2,7 +2,7 @@
 
 *Gerado em 2026-08-11 15:23:11 · origem dos dados: **simulado** · tempo de execução: 185 s*
 
-> ⚠️ Se a origem for `simulado`, os números são de uma coorte sintética com parâmetros conhecidos e **não** têm validade epidemiológica.
+> ⚠️ATENÇÃO: Se a origem for `simulado`, os números são de uma coorte sintética com parâmetros conhecidos e **não** têm validade epidemiológica.
 
 ## Fluxograma de elegibilidade
 
