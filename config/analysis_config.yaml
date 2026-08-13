@@ -11,7 +11,7 @@ uf: MG
 anos: [2023]
 meses: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 grupo_sih: RD                 # AIH Reduzida
-cid_prefixos: ["J"]           # Capítulo X da CID-10
+cid_prefixos: ["J"]           # Capítulo X da CID-10 
 
 idade_minima: 18
 idade_maxima: 110
@@ -43,4 +43,4 @@ seed: 20240501
 
 # ------------------------- Execução / dados --------------------------------
 modo_dados: auto              # auto | pysus | simular
-n_simulacao: 40000
+n_simulacao: 40000 
