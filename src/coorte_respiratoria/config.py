@@ -4,7 +4,7 @@ config.py
 
 Configuração central e *pré-registro computacional* do estudo.
 
-Racional metodológico
+Racional metodológico 
 ---------------------
 Em epidemiologia, decisões analíticas tomadas **depois** de ver os resultados
 (garden of forking paths) são a principal fonte de inflação do erro tipo I.
