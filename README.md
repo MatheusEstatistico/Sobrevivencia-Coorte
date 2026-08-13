@@ -17,3 +17,7 @@ Para isso, emprega métodos não paramétricos como o **estimador de Kaplan-Meie
 # Análises feitas
 - []();
 - 
+
+
+# Observações
+1. Códigos feitos com ajuda de IA (Claude Code), mas foi revisado. 
