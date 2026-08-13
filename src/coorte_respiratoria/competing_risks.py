@@ -18,8 +18,7 @@ Consequências:
                     \\frac{d_{kj}}{n_j}
 
   onde :math:`\\hat S` é o KM de "qualquer saída". O fator :math:`\\hat S(t_{j-1})`
-  é justamente o que falta ao KM ingênuo: só pode morrer no dia *t* quem ainda
-  está internado no dia *t*.
+  é justamente o que falta ao KM ingênuo: só pode morrer no dia *t* quem ainda está internado no dia *t*.
 
 Dois modelos, duas perguntas
 ----------------------------
