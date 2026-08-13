@@ -1,7 +1,7 @@
 # Sobrevida intra-hospitalar em internações por doenças do aparelho respiratório em Minas Gerais: uma coorte retrospectiva com análise de riscos competitivos
 
 **Documentação metodológica em formato de manuscrito**
-Versão 1.0 · Repositório: `coorte-respiratoria-sus`
+Versão 1.0 · Repositório: `Sobrevivencia-Coorte`
 
 > **Aviso de escopo.** Este documento é a **documentação metodológica** do
 > pipeline, redigida no formato de um manuscrito para explicitar cada decisão
